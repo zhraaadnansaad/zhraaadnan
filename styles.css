@@ -1,0 +1,656 @@
+/* General styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f8ff;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #1e90ff; /* تغيير لون العنوان إلى الأزرق */
+    color: #fff;
+    padding: 20px;
+    text-align: right;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 2em; /* تقليل حجم العنوان */
+    font-family: 'Verdana', sans-serif; /* تغيير الخط إلى فيردانا */
+    color: #ff6347; /* اللون البرتقالي الجميل */
+    margin: 0;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); /* إضافة ظل للعنوان */
+}
+
+main {
+    padding: 20px;
+}
+
+.intro {
+    background-color: #ffffff;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+}
+
+.intro p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    text-align: right;
+    color: #555;
+}
+
+.interview {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.question-answer {
+    margin-bottom: 30px;
+}
+
+h2 {
+    font-size: 1.5em;
+    color: #ff6347;
+    margin-bottom: 10px;
+    transition: color 0.3s ease; /* تأثير عند التفاعل */
+}
+
+h2:hover {
+    color: #1e90ff; /* تغيير اللون عند التفاعل */
+}
+
+p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    margin-bottom: 15px;
+    color: #555;
+}
+
+img {
+    width: 50%;  /* تصغير الحجم إلى 50% من عرض الصفحة */
+    height: auto;
+    border-radius: 10px;
+    margin-top: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 1.8em;
+    }
+    h2 {
+        font-size: 1.3em;
+    }
+    p {
+        font-size: 1em;
+    }
+    .intro p {
+        font-size: 1em;
+    }
+    img {
+        width: 80%; /* تصغير الحجم إلى 80% على الهواتف */
+    }
+}
+/* General styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f8ff;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: linear-gradient(135deg, #1e90ff, #ff6347); /* تدرج لوني من الأزرق إلى البرتقالي */
+    color: #fff;
+    padding: 30px 20px; /* زيادة المسافة حول العنوان */
+    text-align: center; /* جعل العنوان في الوسط */
+    position: relative;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); /* إضافة ظل للشريط العلوي */
+    transition: all 0.3s ease; /* تأثير عند التفاعل */
+}
+
+header:hover {
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3); /* تأثير الظل عند التمرير */
+    background: linear-gradient(135deg, #ff6347, #1e90ff); /* تغيير التدرج اللوني عند التمرير */
+}
+
+h1 {
+    font-size: 2.5em;
+    font-family: 'Verdana', sans-serif;
+    color: #fff;
+    margin: 0;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); /* إضافة ظل للعنوان */
+    letter-spacing: 2px; /* زيادة تباعد الحروف لجعلها أكثر وضوحًا */
+    transition: transform 0.3s ease; /* إضافة تأثير عند التفاعل مع العنوان */
+}
+
+h1:hover {
+    transform: scale(1.1); /* تكبير العنوان عند التمرير */
+}
+
+/* باقي الكود كما هو */
+
+main {
+    padding: 20px;
+}
+
+.intro {
+    background-color: #ffffff;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+}
+
+.intro p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    text-align: right;
+    color: #555;
+}
+
+.interview {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.question-answer {
+    margin-bottom: 30px;
+}
+
+h2 {
+    font-size: 1.5em;
+    color: #ff6347;
+    margin-bottom: 10px;
+    transition: color 0.3s ease;
+}
+
+h2:hover {
+    color: #1e90ff;
+}
+
+p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    margin-bottom: 15px;
+    color: #555;
+}
+
+img {
+    width: 50%;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 1.8em;
+    }
+    h2 {
+        font-size: 1.3em;
+    }
+    p {
+        font-size: 1em;
+    }
+    .intro p {
+        font-size: 1em;
+    }
+    img {
+        width: 80%;
+    }
+}
+/* استيراد الخطوط */
+body {
+    font-family: 'Open Sans', sans-serif; /* تغيير الخط الأساسي */
+    background: linear-gradient(135deg, #f0f8ff, #ffecd2); /* تدرج لوني خلفي للموقع */
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: linear-gradient(135deg, #1e90ff, #ff6347); /* تدرج لوني من الأزرق إلى البرتقالي */
+    color: #fff;
+    padding: 30px 20px;
+    text-align: center;
+    position: relative;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+}
+
+header:hover {
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+    background: linear-gradient(135deg, #ff6347, #1e90ff);
+}
+
+h1 {
+    font-size: 2.5em;
+    font-family: 'Cairo', sans-serif; /* تغيير الخط إلى 'Cairo' */
+    color: #fff;
+    margin: 0;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    letter-spacing: 2px;
+    transition: transform 0.3s ease;
+}
+
+h1:hover {
+    transform: scale(1.1);
+}
+
+main {
+    padding: 40px 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    max-width: 1100px;
+}
+
+.intro {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+}
+
+.intro p {
+    font-size: 1.3em;
+    line-height: 1.8;
+    text-align: right;
+    color: #555;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+}
+
+.interview {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.question-answer {
+    margin-bottom: 30px;
+}
+
+h2 {
+    font-size: 1.5em;
+    color: #ff6347;
+    margin-bottom: 10px;
+    transition: color 0.3s ease;
+    font-family: 'Cairo', sans-serif;
+}
+
+h2:hover {
+    color: #1e90ff;
+}
+
+p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    margin-bottom: 15px;
+    color: #555;
+}
+
+img {
+    width: 50%;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    transition: transform 0.3s ease; /* تأثير عند التمرير على الصورة */
+}
+
+img:hover {
+    transform: scale(1.05); /* تكبير الصورة عند التمرير عليها */
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 1.8em;
+    }
+    h2 {
+        font-size: 1.3em;
+    }
+    p {
+        font-size: 1em;
+    }
+    .intro p {
+        font-size: 1em;
+    }
+    img {
+        width: 80%;
+    }
+}
+/* استيراد الخطوط */
+body {
+    font-family: 'Open Sans', sans-serif; /* تغيير الخط الأساسي */
+    background: linear-gradient(135deg, #f0f8ff, #ffecd2); /* تدرج لوني خلفي للموقع */
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: linear-gradient(135deg, #1e90ff, #ff6347); /* تدرج لوني من الأزرق إلى البرتقالي */
+    color: #fff;
+    padding: 30px 20px;
+    text-align: center;
+    position: relative;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+}
+
+header:hover {
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+    background: linear-gradient(135deg, #ff6347, #1e90ff);
+}
+
+h1 {
+    font-size: 2.5em;
+    font-family: 'Cairo', sans-serif; /* تغيير الخط إلى 'Cairo' */
+    color: #fff;
+    margin: 0;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    letter-spacing: 2px;
+    transition: transform 0.3s ease;
+}
+
+h1:hover {
+    transform: scale(1.1);
+}
+
+main {
+    padding: 40px 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    max-width: 1100px;
+}
+
+.intro {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+}
+
+.intro p {
+    font-size: 1.3em;
+    line-height: 1.8;
+    text-align: right;
+    color: #555;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+}
+
+.interview {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.question-answer {
+    margin-bottom: 30px;
+}
+
+h2 {
+    font-size: 1.5em;
+    color: #ff6347;
+    margin-bottom: 10px;
+    transition: color 0.3s ease;
+    font-family: 'Cairo', sans-serif;
+}
+
+h2:hover {
+    color: #1e90ff;
+}
+
+p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    margin-bottom: 15px;
+    color: #555;
+}
+
+img {
+    width: 50%;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    transition: transform 0.3s ease; /* تأثير عند التمرير على الصورة */
+}
+
+img:hover {
+    transform: scale(1.05); /* تكبير الصورة عند التمرير عليها */
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 1.8em;
+    }
+    h2 {
+        font-size: 1.3em;
+    }
+    p {
+        font-size: 1em;
+    }
+    .intro p {
+        font-size: 1em;
+    }
+    img {
+        width: 80%;
+    }
+}
+/* استيراد الخطوط */
+body {
+    font-family: 'Open Sans', sans-serif; /* تغيير الخط الأساسي */
+    background: linear-gradient(135deg, #f0f8ff, #ffecd2); /* تدرج لوني خلفي للموقع */
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: linear-gradient(135deg, #1e90ff, #ff6347); /* تدرج لوني من الأزرق إلى البرتقالي */
+    color: #fff;
+    padding: 30px 20px;
+    text-align: center;
+    position: relative;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+}
+
+header:hover {
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+    background: linear-gradient(135deg, #ff6347, #1e90ff);
+}
+
+h1 {
+    font-size: 2.5em;
+    font-family: 'Cairo', sans-serif; /* تغيير الخط إلى 'Cairo' */
+    color: #fff;
+    margin: 0;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    letter-spacing: 2px;
+    transition: transform 0.3s ease;
+}
+
+h1:hover {
+    transform: scale(1.1);
+}
+
+/* إضافة تنسيق لأيقونات التواصل الاجتماعي */
+.social-icons {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+}
+
+.social-icons a {
+    color: #fff;
+    font-size: 2em;
+    margin: 0 15px;
+    text-decoration: none;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.social-icons a:hover {
+    transform: scale(1.2); /* تكبير الأيقونات عند التمرير */
+    color: #ff6347; /* تغيير اللون إلى البرتقالي عند التمرير */
+}
+
+main {
+    padding: 40px 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    max-width: 1100px;
+}
+
+.intro {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+}
+
+.intro p {
+    font-size: 1.3em;
+    line-height: 1.8;
+    text-align: right;
+    color: #555;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+}
+
+.interview {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.question-answer {
+    margin-bottom: 30px;
+}
+
+h2 {
+    font-size: 1.5em;
+    color: #ff6347;
+    margin-bottom: 10px;
+    transition: color 0.3s ease;
+    font-family: 'Cairo', sans-serif;
+}
+
+h2:hover {
+    color: #1e90ff;
+}
+
+p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    margin-bottom: 15px;
+    color: #555;
+}
+
+img {
+    width: 50%;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    transition: transform 0.3s ease; /* تأثير عند التمرير على الصورة */
+}
+
+img:hover {
+    transform: scale(1.05); /* تكبير الصورة عند التمرير عليها */
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 1.8em;
+    }
+    h2 {
+        font-size: 1.3em;
+    }
+    p {
+        font-size: 1em;
+    }
+    .intro p {
+        font-size: 1em;
+    }
+    img {
+        width: 80%;
+    }
+    .social-icons {
+        position: relative;
+        top: auto;
+        left: auto;
+        right: auto;
+        transform: none;
+        margin-top: 20px;
+        text-align: center;
+    }
+    .social-icons a {
+        font-size: 1.8em;
+    }
+}
+.developer {
+    position: absolute;
+    left: 20px;
+    bottom: 10px;
+    font-size: 1.2em;
+    color: #ffcc00; /* تغيير اللون البرتقالي الفاتح */
+    font-family: 'Cairo', sans-serif;
+    text-align: left;
+    font-weight: bold;
+    margin: 0;
+    transition: color 0.3s ease;
+}
+
+.developer p:hover {
+    color: #ff6347; /* اللون البرتقالي عند التمرير */
+}
+/* تحديد اللون الأزرق لنصوص داخل وسوم p */
+.blue-text {
+    color: blue;
+}
+
+/* تحديد اللون الأسود لنصوص داخل وسوم p */
+.red-text {
+    color: red;
+}
